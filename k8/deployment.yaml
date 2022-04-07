@@ -16,7 +16,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: spring-boot-deployment
+  name: flask-demo-deployment
   namespace: flask-demo-ns
   labels:
     app: flask-web
