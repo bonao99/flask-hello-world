@@ -1,6 +1,7 @@
 # https://code.visualstudio.com/docs/python/tutorial-flask
 # python -m flask run --host=0.0.0.0 --port=8484
 # docker run -p 8484:8484 -d flask-hello-world
+# test commit from laptop
 
 from flask import Flask, render_template, request, redirect, url_for, flash, jsonify
 
